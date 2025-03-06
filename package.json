@@ -2,10 +2,11 @@
   "name": "api-spotify",
   "version": "1.0.0",
   "scripts": {
-    "start": "chmod +x node_modules/.bin/json-server && node_modules/.bin/json-server --watch artists.json --port $PORT"
+    "start": "chmod +x node_modules/.bin/json-server && node_modules/.bin/json-server --watch artists.json --port $PORT --no-static"
   },
   "devDependencies": {
     "json-server": "^1.0.0-beta.3"
   }
 }
+
 
