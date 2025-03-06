@@ -2,7 +2,7 @@
   "name": "api-spotify",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch artists.json --port $PORT"
+    "start": "npx json-server --watch artists.json --port $PORT"
   },
   "devDependencies": {
     "json-server": "^1.0.0-beta.3"
